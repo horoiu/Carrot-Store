@@ -27,37 +27,39 @@ body {
     color: var(--dark-med-color);
 }
 
-main {
-    width: 305px;
-    margin: 142px auto 0 auto;
-    /* margin-top: 200px; */
+header {
+    height: 100px;
+    display: block;
+    background-color: var(--dark-color);
+    color: var(--secondary-bg-color);
 }
 
-main h1 {
-    font-size: 70px;
+header > h1 {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.head__btn {
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 46px;
+    width: 52px;
+}
+
+header h1 {
+    font-size: 50px;
     font-family: "Pacifico", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 288px;
+    margin: 20px auto 0 auto;
 }
 
 main p {
     margin: 0 auto;
     letter-spacing: 1.1px;
     word-spacing: 1.6px;
-}
-
-main a:link,
-main a:visited {
-    display: block;
-    width: 232px;
-    height: 67px;
-    border-radius: 3px;
-    padding-top: 20px;
-    margin: 0 auto;
-    margin-top: 70px;
-    text-decoration: none;
-    background-color: var(--button-color);
-    color: var(--secondary-bg-color);
-    font-size: 24px;
-    letter-spacing: 1.1px;
 }
 
 footer {
@@ -90,12 +92,12 @@ footer ul a:visited {
     color: var(--secondary-bg-color);
 }
 
-figure {
+footer figure {
     display: inline-block;
     padding-left: 20px;
 }
 
-figure img {
+footer figure img {
     height: 92px;
     width: 92px;
 }
@@ -118,6 +120,7 @@ footer p a {
 /* index.html  - END */
 
 .card {
+    position: relative;
     width: 288px;
     height: 360px;
     background-color: var(--secondary-bg-color);
@@ -133,10 +136,18 @@ footer p a {
     font-size: 22px;
 }
 
-.card__btn {
-    display: inline-block;
-    width: 198px;
+.card__btn:link,
+.card__btn:visited {
+    display: block;
+    width: 138px;
     height: 40px;
+    border-radius: 3px;
+    margin: 20px auto 30px auto;
+    padding-top: 13px;
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--secondary-bg-color);
+    letter-spacing: 1.1px;
 }
 
 /* list.html  - START */
