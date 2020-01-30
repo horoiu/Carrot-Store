@@ -32,12 +32,14 @@ header {
     color: var(--secondary-bg-color);
 }
 
-header > h1 {
+.header > a {
     display: inline-block;
     font-size: 50px;
     font-family: "Pacifico", Tahoma, Geneva, Verdana, sans-serif;
     width: 60%;
     padding-left: 15%;
+    text-decoration: none;
+    color: var(--secondary-bg-color);
 }
 
 .header__btn {
@@ -50,9 +52,7 @@ header > h1 {
     position: relative;
     margin-left: 10px;
     top: 12px;
-    /* padding-top: 20%; */
     height: 56px;
-    /* width: 52px; */
 }
 
 main {
