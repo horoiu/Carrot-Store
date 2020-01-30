@@ -1,5 +1,3 @@
-/* index.html  - START */
-
 :root {
     --dark-color: #434a3e;
     --main-bg-color: #cbd8c1;
@@ -30,7 +28,6 @@ body {
 main {
     width: 305px;
     margin: 142px auto 0 auto;
-    /* margin-top: 200px; */
 }
 
 main h1 {
@@ -115,8 +112,6 @@ footer p a {
     text-align: center;
 }
 
-/* index.html  - END */
-
 .card {
     width: 288px;
     height: 360px;
@@ -139,4 +134,30 @@ footer p a {
     height: 40px;
 }
 
-/* list.html  - START */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .header__btn {
+        display: none;
+    }
+}
